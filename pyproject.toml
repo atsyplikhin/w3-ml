@@ -1,0 +1,11 @@
+[project]
+name = "w3-ml"
+version = "0.1.0"
+description = "Download latest messages from WebML W3 WG"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.13.3",
+    "markdownify>=1.1.0",
+    "requests>=2.32.3",
+]
